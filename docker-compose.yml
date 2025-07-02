@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  register:
+    build: .
+    image: register-service:latest
+    container_name: register-service
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "${REGISTRATION_MICROSERVICE_PORT}:${REGISTRATION_MICROSERVICE_PORT}"
