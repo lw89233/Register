@@ -11,7 +11,7 @@ Ta mikrousługa odpowiada za obsługę procesu rejestracji nowych użytkowników
 ## Konfiguracja
 
 Ten komponent wymaga następujących zmiennych środowiskowych w pliku `.env`:
-```
+```ini
 REGISTRATION_MICROSERVICE_PORT=
 DB_HOST=
 DB_PORT=
