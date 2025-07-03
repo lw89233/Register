@@ -1,7 +1,6 @@
 services:
   register:
-    build: .
-    image: register-service:latest
+    image: lw89233/register:latest
     container_name: register-service
     restart: unless-stopped
     env_file:
